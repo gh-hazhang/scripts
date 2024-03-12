@@ -1,0 +1,4 @@
+  File "/ghsfa/projects/pharma/projects/sirius_pharma/hazhang_projects/MB_PanCancer_LoD_simulation_01082024/calculate_mb_scores.py", line 36
+    simu_output = f'{simu_dir}/hyper_{crc_row['GHSampleID']}_{cf_row['run_sample_id']}_{target_maf}_mr_feature.tsv'
+                                               ^
+SyntaxError: invalid syntax
