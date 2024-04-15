@@ -7,7 +7,7 @@ library(ggnewscale)
 library(ggsci)
 library(stringr)
 
-setwd("/ghsfa/projects/pharma/projects/sirius_pharma/hazhang_projects/")
+setwd("/ghsfa/projects/pharma/projects/sirius_pharma/hazhang_projects/swimmer_plot_COSMOS_1_practice_HYZ_02292024")
 
 input_file_path = "COS_01_Combined Report (Batch1,2&Enrollment&cfDNA retains)_MAFBAND UPDATE_TR working copy.xlsx"
 sheet_name = "COS_01 DATA MERGE"
