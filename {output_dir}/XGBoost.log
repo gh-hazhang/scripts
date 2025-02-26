@@ -1,0 +1,20 @@
+/home/hazhang/anaconda3/envs/lunartk_v1.1.0/lib/python3.8/site-packages/xgboost/core.py:265: FutureWarning: Your system has an old version of glibc (< 2.28). We will stop supporting Linux distros with glibc older than 2.28 after **May 31, 2025**. Please upgrade to a recent Linux distro (with glibc 2.28+) to use future versions of XGBoost.
+Note: You have installed the 'manylinux2014' variant of XGBoost. Certain features such as GPU algorithms or federated learning are not available. To use these features, please upgrade to a recent Linux distro with glibc 2.28+, and install the 'manylinux_2_28' variant.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<stdin>", line 15, in <module>
+  File "/home/hazhang/anaconda3/envs/lunartk_v1.1.0/lib/python3.8/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hazhang/anaconda3/envs/lunartk_v1.1.0/lib/python3.8/site-packages/pandas/util/_decorators.py", line 317, in wrapper
+    return func(*args, **kwargs)
+  File "/home/hazhang/anaconda3/envs/lunartk_v1.1.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 950, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/hazhang/anaconda3/envs/lunartk_v1.1.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 605, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/hazhang/anaconda3/envs/lunartk_v1.1.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1442, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/hazhang/anaconda3/envs/lunartk_v1.1.0/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1729, in _make_engine
+    self.handles = get_handle(
+  File "/home/hazhang/anaconda3/envs/lunartk_v1.1.0/lib/python3.8/site-packages/pandas/io/common.py", line 857, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '{work_dir}/df_train.csv'
